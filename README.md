@@ -1,13 +1,13 @@
-# SARSA Learning Algorithm
+### EX NO : 06
+# <p align="center">SARSA Learning Algorithm</p>
 
-
-## AIM
+## AIM :
 To develop SARSA RL to train an agent in Gym environment for optimal policy learning.
 
-## PROBLEM STATEMENT
+## PROBLEM STATEMENT :
 Train agent with SARSA in Gym environment, making sequential decisions for maximizing cumulative rewards.
 
-## SARSA LEARNING ALGORITHM
+## SARSA LEARNING ALGORITHM :
 ### Step 1:
 Initialize the Q-table with random values for all state-action pairs.
 ### Step 2:
@@ -19,8 +19,10 @@ Update the Q-value for the current state-action pair (S, A) using the SARSA upda
 ### Step 5:
 Update State and Action and repeat the step 3 untill the episodes ends.
 
-## SARSA LEARNING FUNCTION
-
+## SARSA LEARNING FUNCTION :
+Developed By : **Nithishkumar P**
+</br>
+Register No. : **212221230070**
 ```py
 def sarsa(env,
           gamma=1.0,
@@ -61,15 +63,13 @@ def sarsa(env,
     pi = lambda s: np.argmax(Q[s])
     return Q, V, pi, Q_track, pi_track
 ```
-## OUTPUT:
+## OUTPUT :
 ### Optimal policy, optimal value function , success rate for the optimal policy.
-![Output_1](O_1.png)
+![image](https://github.com/NITHISHKUMAR-P/sarsa-learning/assets/93427017/32ce39c9-f7f6-4709-9e34-b01490ba97d0)
+
 ### State value functions of Monte Carlo method
-![Output_2](/FVMC.png)
+![image](https://github.com/NITHISHKUMAR-P/sarsa-learning/assets/93427017/512fee6d-bfb1-4fd7-85b0-793100e580e6)
 ### State value functions of SARSA learning.
-![Output_3](/Sarsa.png)
-
-
-## RESULT:
-
-SARSA learning successfully trained an agent for optimal policy.
+![image](https://github.com/NITHISHKUMAR-P/sarsa-learning/assets/93427017/10c8cab1-63fd-4814-8143-dc35e6170675)
+## RESULT :
+Thus, SARSA learning successfully trained an agent for optimal policy.
