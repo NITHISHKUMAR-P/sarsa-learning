@@ -64,12 +64,12 @@ def sarsa(env,
     return Q, V, pi, Q_track, pi_track
 ```
 ## OUTPUT :
-### Optimal policy, optimal value function , success rate for the optimal policy.
+### Optimal policy, optimal value function , success rate for the optimal policy:
 ![image](https://github.com/NITHISHKUMAR-P/sarsa-learning/assets/93427017/32ce39c9-f7f6-4709-9e34-b01490ba97d0)
 
-### State value functions of Monte Carlo method
+### State value functions of Monte Carlo method:
 ![image](https://github.com/NITHISHKUMAR-P/sarsa-learning/assets/93427017/512fee6d-bfb1-4fd7-85b0-793100e580e6)
-### State value functions of SARSA learning.
+### State value functions of SARSA learning:
 ![image](https://github.com/NITHISHKUMAR-P/sarsa-learning/assets/93427017/10c8cab1-63fd-4814-8143-dc35e6170675)
 ## RESULT :
 Thus, SARSA learning successfully trained an agent for optimal policy.
